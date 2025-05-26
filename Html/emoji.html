@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvelias - Emoji</title>
+  <link rel="stylesheet" href="../Css/style.css">
+  <link rel="stylesheet" href="../Css/emoji.css">
+
+</head>
+<body>
+<div class="game-container">
+  <h1>MarveliaS</h1>
+  <div class="emoji-container">
+    <emoji id="emoji1">❓</emoji>
+    <emoji id="emoji2">❓</emoji>
+    <emoji id="emoji3">❓</emoji>
+  </div>
+  <div class="autocomplete">
+    <input type="text" id="guess-input" placeholder="Karakter adı girin...">
+    <button class="guess-button" onclick="guess()">Tahmin Et</button>
+  </div>
+  <div id="result"></div>
+</div>
+<script src="../Js/emojiScript.js" ></script>
+<script src="../Js/autocomplete.js"></script>
+
+</body>
+</html>

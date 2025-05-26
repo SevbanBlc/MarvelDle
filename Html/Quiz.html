@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarveliaS - Classic</title>
+  <link rel="stylesheet" href="../Css/style.css">
+</head>
+<body>
+<div class="game-container">
+  <h1>MarveliaS</h1>
+  <div class="autocomplete">
+    <input type="text" id="guess-input" placeholder="Karakter adı girin...">
+      <button onclick="checkGuess()">Tahmin Et</button>
+  </div>
+  <div id="result"></div>
+</div>
+<div class="game-container">
+<div class="previous-guesses">
+  <h2 style="color: #0b57d0;">Önceki Tahminler</h2>
+  <div id="previous-guesses-list" style="color: #2BE3FA"></div>
+</div>
+</div>
+<script src="../Js/script.js"></script>
+<script src="../Js/autocomplete.js"></script>
+
+</body>
+</html>
